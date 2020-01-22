@@ -1,0 +1,6 @@
+framework module Pods_naverMapTestTests {
+  umbrella header "Pods-naverMapTestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8658D986C3228206A6D523F8 /* Pods_naverMapTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0610AD04BE76B42E95FAA2ED /* Pods_naverMapTestTests.framework */; };
+		BE56F5651C6C5366F6852CBC /* Pods_naverMapTest_naverMapTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C502FFC251838F5A603AAD6 /* Pods_naverMapTest_naverMapTestUITests.framework */; };
 		C8C9870523D7DFB500BECA3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C9870423D7DFB500BECA3A /* AppDelegate.swift */; };
 		C8C9870723D7DFB500BECA3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C9870623D7DFB500BECA3A /* SceneDelegate.swift */; };
 		C8C9870923D7DFB500BECA3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C9870823D7DFB500BECA3A /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		C8C9871123D7DFBB00BECA3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C9870F23D7DFBB00BECA3A /* LaunchScreen.storyboard */; };
 		C8C9871C23D7DFBB00BECA3A /* naverMapTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C9871B23D7DFBB00BECA3A /* naverMapTestTests.swift */; };
 		C8C9872723D7DFBB00BECA3A /* naverMapTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C9872623D7DFBB00BECA3A /* naverMapTestUITests.swift */; };
+		FC694294E1B973FB221DEE63 /* Pods_naverMapTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8A3462D77D1C37DF640EA5 /* Pods_naverMapTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0610AD04BE76B42E95FAA2ED /* Pods_naverMapTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_naverMapTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		107A7FB701D773CF5CB56224 /* Pods-naverMapTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-naverMapTest.debug.xcconfig"; path = "Target Support Files/Pods-naverMapTest/Pods-naverMapTest.debug.xcconfig"; sourceTree = "<group>"; };
+		176EF3660E2D1C3CB28624EC /* Pods-naverMapTest-naverMapTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-naverMapTest-naverMapTestUITests.release.xcconfig"; path = "Target Support Files/Pods-naverMapTest-naverMapTestUITests/Pods-naverMapTest-naverMapTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1C502FFC251838F5A603AAD6 /* Pods_naverMapTest_naverMapTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_naverMapTest_naverMapTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97FEB2AF8958BDE6CD19A656 /* Pods-naverMapTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-naverMapTestTests.debug.xcconfig"; path = "Target Support Files/Pods-naverMapTestTests/Pods-naverMapTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA8A3462D77D1C37DF640EA5 /* Pods_naverMapTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_naverMapTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C9870123D7DFB500BECA3A /* naverMapTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = naverMapTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C9870423D7DFB500BECA3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8C9870623D7DFB500BECA3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		C8C9872223D7DFBB00BECA3A /* naverMapTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = naverMapTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C9872623D7DFBB00BECA3A /* naverMapTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naverMapTestUITests.swift; sourceTree = "<group>"; };
 		C8C9872823D7DFBB00BECA3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC083A07B56FD95D928ECFA /* Pods-naverMapTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-naverMapTestTests.release.xcconfig"; path = "Target Support Files/Pods-naverMapTestTests/Pods-naverMapTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		D712CC03AAF622A916A66162 /* Pods-naverMapTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-naverMapTest.release.xcconfig"; path = "Target Support Files/Pods-naverMapTest/Pods-naverMapTest.release.xcconfig"; sourceTree = "<group>"; };
+		E1EDDD92FEB0BFC59C076BB6 /* Pods-naverMapTest-naverMapTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-naverMapTest-naverMapTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-naverMapTest-naverMapTestUITests/Pods-naverMapTest-naverMapTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC694294E1B973FB221DEE63 /* Pods_naverMapTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8658D986C3228206A6D523F8 /* Pods_naverMapTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE56F5651C6C5366F6852CBC /* Pods_naverMapTest_naverMapTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		170C766CF4CE79BE1541C254 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA8A3462D77D1C37DF640EA5 /* Pods_naverMapTest.framework */,
+				1C502FFC251838F5A603AAD6 /* Pods_naverMapTest_naverMapTestUITests.framework */,
+				0610AD04BE76B42E95FAA2ED /* Pods_naverMapTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C8C986F823D7DFB500BECA3A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				C8C9871A23D7DFBB00BECA3A /* naverMapTestTests */,
 				C8C9872523D7DFBB00BECA3A /* naverMapTestUITests */,
 				C8C9870223D7DFB500BECA3A /* Products */,
+				D91C74A9C1C2F4EF85658F68 /* Pods */,
+				170C766CF4CE79BE1541C254 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +155,19 @@
 			path = naverMapTestUITests;
 			sourceTree = "<group>";
 		};
+		D91C74A9C1C2F4EF85658F68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				107A7FB701D773CF5CB56224 /* Pods-naverMapTest.debug.xcconfig */,
+				D712CC03AAF622A916A66162 /* Pods-naverMapTest.release.xcconfig */,
+				E1EDDD92FEB0BFC59C076BB6 /* Pods-naverMapTest-naverMapTestUITests.debug.xcconfig */,
+				176EF3660E2D1C3CB28624EC /* Pods-naverMapTest-naverMapTestUITests.release.xcconfig */,
+				97FEB2AF8958BDE6CD19A656 /* Pods-naverMapTestTests.debug.xcconfig */,
+				CFC083A07B56FD95D928ECFA /* Pods-naverMapTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8C9872B23D7DFBB00BECA3A /* Build configuration list for PBXNativeTarget "naverMapTest" */;
 			buildPhases = (
+				724303F73A6708A0644F3947 /* [CP] Check Pods Manifest.lock */,
 				C8C986FD23D7DFB500BECA3A /* Sources */,
 				C8C986FE23D7DFB500BECA3A /* Frameworks */,
 				C8C986FF23D7DFB500BECA3A /* Resources */,
+				4ADBE6DFDBB4CBBE52AE0EF9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8C9872E23D7DFBB00BECA3A /* Build configuration list for PBXNativeTarget "naverMapTestTests" */;
 			buildPhases = (
+				8D3D03B943EA1D2157CD5E0B /* [CP] Check Pods Manifest.lock */,
 				C8C9871323D7DFBB00BECA3A /* Sources */,
 				C8C9871423D7DFBB00BECA3A /* Frameworks */,
 				C8C9871523D7DFBB00BECA3A /* Resources */,
@@ -170,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8C9873123D7DFBB00BECA3A /* Build configuration list for PBXNativeTarget "naverMapTestUITests" */;
 			buildPhases = (
+				17B62AC7D0EF3AA17CE0DC9E /* [CP] Check Pods Manifest.lock */,
 				C8C9871E23D7DFBB00BECA3A /* Sources */,
 				C8C9871F23D7DFBB00BECA3A /* Frameworks */,
 				C8C9872023D7DFBB00BECA3A /* Resources */,
+				0A31D76397E2CED753D891F0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A31D76397E2CED753D891F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-naverMapTest-naverMapTestUITests/Pods-naverMapTest-naverMapTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-naverMapTest-naverMapTestUITests/Pods-naverMapTest-naverMapTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-naverMapTest-naverMapTestUITests/Pods-naverMapTest-naverMapTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17B62AC7D0EF3AA17CE0DC9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-naverMapTest-naverMapTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ADBE6DFDBB4CBBE52AE0EF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-naverMapTest/Pods-naverMapTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-naverMapTest/Pods-naverMapTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-naverMapTest/Pods-naverMapTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		724303F73A6708A0644F3947 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-naverMapTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D3D03B943EA1D2157CD5E0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-naverMapTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C8C986FD23D7DFB500BECA3A /* Sources */ = {
@@ -432,6 +580,7 @@
 		};
 		C8C9872C23D7DFBB00BECA3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 107A7FB701D773CF5CB56224 /* Pods-naverMapTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,7 +590,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jomelong.naverMapTest;
+				PRODUCT_BUNDLE_IDENTIFIER = navermap.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,6 +599,7 @@
 		};
 		C8C9872D23D7DFBB00BECA3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D712CC03AAF622A916A66162 /* Pods-naverMapTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,7 +609,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jomelong.naverMapTest;
+				PRODUCT_BUNDLE_IDENTIFIER = navermap.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,6 +618,7 @@
 		};
 		C8C9872F23D7DFBB00BECA3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97FEB2AF8958BDE6CD19A656 /* Pods-naverMapTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +641,7 @@
 		};
 		C8C9873023D7DFBB00BECA3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC083A07B56FD95D928ECFA /* Pods-naverMapTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +664,7 @@
 		};
 		C8C9873223D7DFBB00BECA3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1EDDD92FEB0BFC59C076BB6 /* Pods-naverMapTest-naverMapTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +685,7 @@
 		};
 		C8C9873323D7DFBB00BECA3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 176EF3660E2D1C3CB28624EC /* Pods-naverMapTest-naverMapTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
